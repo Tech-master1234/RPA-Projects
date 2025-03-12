@@ -1,0 +1,68 @@
+﻿{
+  "Metadata": {
+    "Id": "a4e10672-1543-44be-8c3f-009edbd22d62",
+    "Kind": "FormIo"
+  },
+  "DesignProperties": {
+    "Title": "Recieptionist",
+    "Theme": "Default",
+    "ShowInTaskbar": true,
+    "ShowMargin": true,
+    "CustomStyle": ""
+  },
+  "Data": {
+    "components": [
+      {
+        "content": "Patient Details",
+        "key": "label",
+        "input": false,
+        "tableView": false,
+        "label": "Label",
+        "type": "label"
+      },
+      {
+        "label": "Patient name",
+        "tableView": true,
+        "key": "patientName",
+        "type": "textfield",
+        "input": true
+      },
+      {
+        "label": "Patient Phone Number",
+        "tableView": true,
+        "key": "patientPhoneNumber",
+        "type": "textfield",
+        "input": true
+      },
+      {
+        "label": "Patient Gender",
+        "tableView": true,
+        "key": "patientGender",
+        "type": "textfield",
+        "input": true
+      },
+      {
+        "label": "Patient Age",
+        "tableView": true,
+        "key": "patientAge",
+        "type": "textfield",
+        "input": true
+      },
+      {
+        "label": "Diesease Description",
+        "tableView": true,
+        "key": "dieseaseDescription",
+        "type": "textfield",
+        "input": true
+      },
+      {
+        "type": "button",
+        "label": "Submit",
+        "key": "submit",
+        "disableOnInvalid": true,
+        "input": true,
+        "tableView": false
+      }
+    ]
+  }
+}
